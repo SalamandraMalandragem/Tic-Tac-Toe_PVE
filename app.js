@@ -124,7 +124,7 @@ onload = () => {
             }else if(allblock[2].innerHTML === x && allblock[4].innerHTML === x && allblock[6].innerHTML === x){
                 document.getElementsByClassName('block')[2].style.backgroundColor='green'
                 document.getElementsByClassName('block')[4].style.backgroundColor='green'
-                document.getElementsByClassName('block')[0].style.backgroundColor='green'
+                document.getElementsByClassName('block')[6].style.backgroundColor='green'
                 setTimeout(crossWonTest, 1000)
                 
             }else if(allblock[0].innerHTML === b && allblock[1].innerHTML === b && allblock[2].innerHTML === b){
